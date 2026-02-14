@@ -148,7 +148,7 @@ fi
 
 # Final directory structure check
 
-if [ -f "$main_dir/attenance_checker.py" ] &&
+if [ -f "$main_dir/attendance_checker.py" ] &&
 	[ -f "$main_dir/Helpers/assets.csv" ] &&
 	 [ -f "$main_dir/Helpers/config.json" ] &&
 	 [ -f "$main_dir/reports/reports.log" ]; then 
