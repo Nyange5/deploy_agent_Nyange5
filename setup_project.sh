@@ -125,11 +125,9 @@ if [[ "$choice" = "yes" ]]; then
 		failure=50
 	fi
 	
-	sed -i "s/\"warning\": [0-9]*/\"warning\": $warning/"
-	"$main_dir/Helpers/config.json"
+	sed -i "s/\"warning\": [0-9]*/\"warning\": $warning/" "$main_dir/Helpers/config.json"
 
-	sed -i "s/\"failure\": [0-9]*/\"failure\": $failure/"
-	"$main_dir/Helpers/config.json"
+	sed -i "s/\"failure\": [0-9]*/\"failure\": $failure/" "$main_dir/Helpers/config.json"
 
 	echo "Thresholds updated successfully"
 
@@ -148,7 +146,7 @@ fi
 
 # Final directory structure check
 
-if [ -f "$main_dir/attenance_checker.py" ] &&
+if [ -f "$main_dir/attendance_checker.py" ] &&
 	[ -f "$main_dir/Helpers/assets.csv" ] &&
 	 [ -f "$main_dir/Helpers/config.json" ] &&
 	 [ -f "$main_dir/reports/reports.log" ]; then 
