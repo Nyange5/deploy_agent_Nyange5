@@ -141,7 +141,7 @@ fi
 if python3 --version &> /dev/null; then
 	echo "Python3 is installed"
 else
-	echo"Warning: Python3 isn't installed"
+	echo "Warning: Python3 isn't installed"
 fi
 
 # Final directory structure check
