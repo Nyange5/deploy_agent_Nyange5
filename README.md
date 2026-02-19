@@ -115,3 +115,5 @@ attendance_tracker_<input>/
 * Bash Unix utilities (`sed`, `tar`, `chmod`)
 * Python 3 (validated at runtime)
 
+# Link of the video
+(https://youtu.be/lQzd3sBYb94)
